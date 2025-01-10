@@ -1,0 +1,1 @@
+var __index = {"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"index.html","title":"Back of my mind","text":"<p>Icons8: Free Icon</p>"},{"location":"blog/index.html","title":"Index","text":""},{"location":"blog/index.html#blog","title":"Blog","text":""}]}
