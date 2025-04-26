@@ -2,102 +2,102 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://bt-backend.github.io/</loc>
-         <lastmod>2025-04-24</lastmod>
+         <lastmod>2025-04-26</lastmod>
     </url>
     <url>
          <loc>https://bt-backend.github.io/api/</loc>
-         <lastmod>2025-04-24</lastmod>
+         <lastmod>2025-04-26</lastmod>
     </url>
     <url>
          <loc>https://bt-backend.github.io/api/authentication/</loc>
-         <lastmod>2025-04-24</lastmod>
+         <lastmod>2025-04-26</lastmod>
     </url>
     <url>
          <loc>https://bt-backend.github.io/api/endpoints/</loc>
-         <lastmod>2025-04-24</lastmod>
+         <lastmod>2025-04-26</lastmod>
     </url>
     <url>
          <loc>https://bt-backend.github.io/api/error-handling/</loc>
-         <lastmod>2025-04-24</lastmod>
+         <lastmod>2025-04-26</lastmod>
     </url>
     <url>
          <loc>https://bt-backend.github.io/api/rate-limiting/</loc>
-         <lastmod>2025-04-24</lastmod>
+         <lastmod>2025-04-26</lastmod>
     </url>
     <url>
          <loc>https://bt-backend.github.io/blog/</loc>
-         <lastmod>2025-04-24</lastmod>
+         <lastmod>2025-04-26</lastmod>
     </url>
     <url>
          <loc>https://bt-backend.github.io/core/architecture/</loc>
-         <lastmod>2025-04-24</lastmod>
+         <lastmod>2025-04-26</lastmod>
     </url>
     <url>
          <loc>https://bt-backend.github.io/core/bff/intro/</loc>
-         <lastmod>2025-04-24</lastmod>
+         <lastmod>2025-04-26</lastmod>
     </url>
     <url>
          <loc>https://bt-backend.github.io/core/bff/question/</loc>
-         <lastmod>2025-04-24</lastmod>
+         <lastmod>2025-04-26</lastmod>
     </url>
     <url>
          <loc>https://bt-backend.github.io/database/</loc>
-         <lastmod>2025-04-24</lastmod>
+         <lastmod>2025-04-26</lastmod>
     </url>
     <url>
          <loc>https://bt-backend.github.io/database/migrations/</loc>
-         <lastmod>2025-04-24</lastmod>
+         <lastmod>2025-04-26</lastmod>
     </url>
     <url>
          <loc>https://bt-backend.github.io/database/relationships/</loc>
-         <lastmod>2025-04-24</lastmod>
+         <lastmod>2025-04-26</lastmod>
     </url>
     <url>
          <loc>https://bt-backend.github.io/database/schema/</loc>
-         <lastmod>2025-04-24</lastmod>
+         <lastmod>2025-04-26</lastmod>
     </url>
     <url>
          <loc>https://bt-backend.github.io/deployment/</loc>
-         <lastmod>2025-04-24</lastmod>
+         <lastmod>2025-04-26</lastmod>
     </url>
     <url>
          <loc>https://bt-backend.github.io/deployment/ci-cd/</loc>
-         <lastmod>2025-04-24</lastmod>
+         <lastmod>2025-04-26</lastmod>
     </url>
     <url>
          <loc>https://bt-backend.github.io/deployment/docker/</loc>
-         <lastmod>2025-04-24</lastmod>
+         <lastmod>2025-04-26</lastmod>
     </url>
     <url>
          <loc>https://bt-backend.github.io/framework/nodejs/guide/</loc>
-         <lastmod>2025-04-24</lastmod>
+         <lastmod>2025-04-26</lastmod>
     </url>
     <url>
          <loc>https://bt-backend.github.io/framework/nodejs/history/</loc>
-         <lastmod>2025-04-24</lastmod>
+         <lastmod>2025-04-26</lastmod>
     </url>
     <url>
          <loc>https://bt-backend.github.io/framework/nodejs/overview/</loc>
-         <lastmod>2025-04-24</lastmod>
+         <lastmod>2025-04-26</lastmod>
     </url>
     <url>
          <loc>https://bt-backend.github.io/testing/</loc>
-         <lastmod>2025-04-24</lastmod>
+         <lastmod>2025-04-26</lastmod>
     </url>
     <url>
          <loc>https://bt-backend.github.io/testing/integration-testing/</loc>
-         <lastmod>2025-04-24</lastmod>
+         <lastmod>2025-04-26</lastmod>
     </url>
     <url>
          <loc>https://bt-backend.github.io/testing/test-coverage/</loc>
-         <lastmod>2025-04-24</lastmod>
+         <lastmod>2025-04-26</lastmod>
     </url>
     <url>
          <loc>https://bt-backend.github.io/testing/unit-testing/</loc>
-         <lastmod>2025-04-24</lastmod>
+         <lastmod>2025-04-26</lastmod>
     </url>
     <url>
          <loc>https://bt-backend.github.io/tools/overview/</loc>
-         <lastmod>2025-04-24</lastmod>
+         <lastmod>2025-04-26</lastmod>
     </url>
 </urlset>
