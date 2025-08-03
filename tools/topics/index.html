@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://bt-backend.github.io/api/error-handling/">
+        <link rel="canonical" href="https://bt-backend.github.io/tools/topics/">
       
       
-        <link rel="prev" href="../rate-limiting/">
+        <link rel="prev" href="../overview/">
       
       
-        <link rel="next" href="../../database/">
+        <link rel="next" href="../observability-stack/">
       
       
       <link rel="icon" href="../../assets/logo/backend.ico">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Error Handling - Backend Organization</title>
+        <title>Topics - Backend Organization</title>
       
     
     
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#error-handling-and-response-codes" class="md-skip">
+        <a href="#topic" class="md-skip">
           Skip to content
         </a>
       
@@ -115,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Error Handling
+              Topics
             
           </span>
         </div>
@@ -236,11 +236,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../tools/overview/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../overview/" class="md-tabs__link">
           
   
   
@@ -276,13 +278,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../api/" class="md-tabs__link">
           
   
   
@@ -492,24 +492,29 @@
       
   
   
+    
   
   
+  
     
     
     
     
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -522,7 +527,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Tools
@@ -536,7 +541,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tools/overview/" class="md-nav__link">
+      <a href="../overview/" class="md-nav__link">
         
   
   
@@ -556,10 +561,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../tools/topics/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Topics
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -570,6 +597,200 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-system-design-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔧 1. System Design &amp; Architecture
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-performance-scalability" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚙️ 2. Performance &amp; Scalability
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔐 3. Security
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-devops-observability" class="md-nav__link">
+    <span class="md-ellipsis">
+      📦 4. DevOps &amp; Observability
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-databases-sql-nosql" class="md-nav__link">
+    <span class="md-ellipsis">
+      🗃️ 5. Databases (SQL + NoSQL)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-messaging-queue-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      🛰️ 6. Messaging &amp; Queue Systems
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-testing-quality-assurance" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧪 7. Testing &amp; Quality Assurance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-cloud-infrastructure" class="md-nav__link">
+    <span class="md-ellipsis">
+      ☁️ 8. Cloud &amp; Infrastructure
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-advanced-api-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      📱 9. Advanced API Design
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-real-world-scalability-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      📈 10. Real-World Scalability Practices
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#suggestions-to-deepen-knowledge" class="md-nav__link">
+    <span class="md-ellipsis">
+      📚 Suggestions to Deepen Knowledge
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#roadmap" class="md-nav__link">
+    <span class="md-ellipsis">
+      Roadmap
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Roadmap">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#phase-1-strengthen-the-core" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧩 Phase 1: Strengthen the Core
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-2-build-production-grade-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧱 Phase 2: Build Production-Grade Systems
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-3-advanced-architecture-devops" class="md-nav__link">
+    <span class="md-ellipsis">
+      🌐 Phase 3: Advanced Architecture &amp; DevOps
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-4-high-level-architecture-real-world-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚡ Phase 4: High-Level Architecture &amp; Real-World Practices
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus-reading-projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧠 Bonus Reading &amp; Projects
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -582,7 +803,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tools/observability-stack/" class="md-nav__link">
+      <a href="../observability-stack/" class="md-nav__link">
         
   
   
@@ -605,7 +826,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tools/prometheus/" class="md-nav__link">
+      <a href="../prometheus/" class="md-nav__link">
         
   
   
@@ -628,7 +849,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tools/grafana/" class="md-nav__link">
+      <a href="../grafana/" class="md-nav__link">
         
   
   
@@ -939,29 +1160,24 @@
       
   
   
-    
   
   
-  
     
     
     
     
       
-        
-        
-      
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
             
   
   
@@ -974,7 +1190,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             API
@@ -988,7 +1204,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="../../api/" class="md-nav__link">
         
   
   
@@ -1011,7 +1227,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../authentication/" class="md-nav__link">
+      <a href="../../api/authentication/" class="md-nav__link">
         
   
   
@@ -1034,7 +1250,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../endpoints/" class="md-nav__link">
+      <a href="../../api/endpoints/" class="md-nav__link">
         
   
   
@@ -1057,7 +1273,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../rate-limiting/" class="md-nav__link">
+      <a href="../../api/rate-limiting/" class="md-nav__link">
         
   
   
@@ -1077,19 +1293,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../api/error-handling/" class="md-nav__link">
         
   
   
@@ -1100,7 +1307,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -1530,6 +1736,188 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-system-design-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔧 1. System Design &amp; Architecture
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-performance-scalability" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚙️ 2. Performance &amp; Scalability
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔐 3. Security
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-devops-observability" class="md-nav__link">
+    <span class="md-ellipsis">
+      📦 4. DevOps &amp; Observability
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-databases-sql-nosql" class="md-nav__link">
+    <span class="md-ellipsis">
+      🗃️ 5. Databases (SQL + NoSQL)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-messaging-queue-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      🛰️ 6. Messaging &amp; Queue Systems
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-testing-quality-assurance" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧪 7. Testing &amp; Quality Assurance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-cloud-infrastructure" class="md-nav__link">
+    <span class="md-ellipsis">
+      ☁️ 8. Cloud &amp; Infrastructure
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-advanced-api-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      📱 9. Advanced API Design
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-real-world-scalability-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      📈 10. Real-World Scalability Practices
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#suggestions-to-deepen-knowledge" class="md-nav__link">
+    <span class="md-ellipsis">
+      📚 Suggestions to Deepen Knowledge
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#roadmap" class="md-nav__link">
+    <span class="md-ellipsis">
+      Roadmap
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Roadmap">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#phase-1-strengthen-the-core" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧩 Phase 1: Strengthen the Core
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-2-build-production-grade-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧱 Phase 2: Build Production-Grade Systems
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-3-advanced-architecture-devops" class="md-nav__link">
+    <span class="md-ellipsis">
+      🌐 Phase 3: Advanced Architecture &amp; DevOps
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-4-high-level-architecture-real-world-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚡ Phase 4: High-Level Architecture &amp; Real-World Practices
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus-reading-projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧠 Bonus Reading &amp; Projects
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1544,7 +1932,304 @@
 
 
 
-<h1 id="error-handling-and-response-codes">Error handling and response codes</h1>
+<div><h1 id="topic">Topic</h1>
+<p>That's great—you’ve already touched on some important observability tools like Prometheus and Grafana, and you're using FastAPI, a modern and high-performance Python web framework. That’s a solid start!</p>
+<h2 id="overview">Overview</h2>
+<p>To master advanced backend programming, here’s a structured list of advanced backend topics, categorized for clarity:</p>
+<h3 id="1-system-design-architecture">🔧 1. System Design &amp; Architecture</h3>
+<p>Understanding <mark>how to architect systems</mark> is crucial.</p>
+<ul>
+<li><strong>Microservices Architecture</strong></li>
+<li><strong>Monolith vs Microservices vs Serverless</strong></li>
+<li><strong>API Gateway</strong> (e.g., Kong, NGINX, Envoy)</li>
+<li><strong>Service Mesh</strong> (e.g., Istio, Linkerd)</li>
+<li><strong>Domain-Driven Design (DDD)</strong></li>
+<li><strong>Event-Driven Architecture</strong> (with Kafka or RabbitMQ)</li>
+<li><strong>Clean Architecture &amp; Hexagonal Architecture</strong></li>
+<li><strong>Load balancing, failover strategies</strong></li>
+</ul>
+<hr>
+<h3 id="2-performance-scalability">⚙️ 2. Performance &amp; Scalability</h3>
+<ul>
+<li><strong>Horizontal vs Vertical Scaling</strong></li>
+<li><strong>Caching</strong>: Redis, Memcached, CDN usage</li>
+<li><strong>Asynchronous Programming</strong>: <code>asyncio</code>, <code>celery</code>, <code>kombu</code></li>
+<li><strong>Rate Limiting / Throttling</strong></li>
+<li><strong>Backpressure handling</strong></li>
+</ul>
+<hr>
+<h3 id="3-security">🔐 3. Security</h3>
+<ul>
+<li><strong>OAuth2, JWT, OpenID Connect</strong></li>
+<li><strong>TLS/SSL, HTTPS, CSRF, XSS, CORS</strong></li>
+<li><strong>API Security Best Practices</strong></li>
+<li><strong>Authentication &amp; Authorization Layers</strong></li>
+<li><strong>Secrets Management</strong> (Vault, AWS Secrets Manager)</li>
+</ul>
+<hr>
+<h3 id="4-devops-observability">📦 4. DevOps &amp; Observability</h3>
+<p>You’ve started with Prometheus + Grafana, which is great.</p>
+<p>Add:</p>
+<ul>
+<li><strong>Logging</strong>: ELK Stack (Elasticsearch, Logstash, Kibana), Loki</li>
+<li><strong>Tracing</strong>: OpenTelemetry, Jaeger</li>
+<li><strong>Metrics</strong>: Custom metrics with Prometheus</li>
+<li><strong>Alerting</strong>: Prometheus Alertmanager</li>
+<li><strong>Docker &amp; Containerization</strong></li>
+<li><strong>CI/CD Pipelines</strong>: GitHub Actions, GitLab CI, Jenkins</li>
+</ul>
+<hr>
+<h3 id="5-databases-sql-nosql">🗃️ 5. Databases (SQL + NoSQL)</h3>
+<ul>
+<li><strong>Advanced SQL Queries, Indexing, Query Planning</strong></li>
+<li><strong>PostgreSQL or MySQL Internals</strong></li>
+<li><strong>NoSQL (MongoDB, Cassandra, DynamoDB)</strong></li>
+<li><strong>Database Scaling</strong>: Sharding, Replication</li>
+<li><strong>ORM Performance Optimization</strong></li>
+<li><strong>Migrations &amp; Schema Management</strong></li>
+</ul>
+<hr>
+<h3 id="6-messaging-queue-systems">🛰️ 6. Messaging &amp; Queue Systems</h3>
+<ul>
+<li><strong>Kafka, RabbitMQ, Redis Streams</strong></li>
+<li><strong>Message patterns</strong>: Pub/Sub, Fanout, Dead Letter Queues</li>
+<li><strong>Idempotency and retry handling</strong></li>
+</ul>
+<hr>
+<h3 id="7-testing-quality-assurance">🧪 7. Testing &amp; Quality Assurance</h3>
+<ul>
+<li><strong>Unit, Integration, End-to-End Testing</strong></li>
+<li><strong>Load Testing (Locust, k6)</strong></li>
+<li><strong>Contract Testing (e.g., Pact)</strong></li>
+<li><strong>Test-Driven Development (TDD)</strong></li>
+</ul>
+<hr>
+<h3 id="8-cloud-infrastructure">☁️ 8. Cloud &amp; Infrastructure</h3>
+<ul>
+<li><strong>AWS / GCP / Azure Core Services</strong></li>
+<li><strong>IaC (Infrastructure as Code)</strong>: Terraform, Pulumi</li>
+<li><strong>Kubernetes Basics + Advanced Concepts</strong></li>
+<li><strong>Networking (VPC, subnets, NAT, firewall rules)</strong></li>
+</ul>
+<hr>
+<h3 id="9-advanced-api-design">📱 9. Advanced API Design</h3>
+<ul>
+<li><strong>Versioning</strong></li>
+<li><strong>Pagination, Filtering, Sorting</strong></li>
+<li><strong>GraphQL APIs</strong></li>
+<li><strong>gRPC / Protobuf</strong></li>
+<li><strong>HATEOAS / REST maturity levels</strong></li>
+</ul>
+<hr>
+<h3 id="10-real-world-scalability-practices">📈 10. Real-World Scalability Practices</h3>
+<ul>
+<li><strong>Circuit Breakers / Bulkheads (e.g., Resilience4j)</strong></li>
+<li><strong>Distributed Tracing</strong></li>
+<li><strong>Handling Failures Gracefully</strong></li>
+<li><strong>Chaos Engineering Basics (e.g., Gremlin)</strong></li>
+</ul>
+<hr>
+<h3 id="suggestions-to-deepen-knowledge">📚 Suggestions to Deepen Knowledge</h3>
+<ul>
+<li>Read <a href="#">"Designing Data-Intensive Applications" by Martin Kleppmann</a></li>
+<li>Explore <a href="#">“The Pragmatic Programmer”</a></li>
+<li>Study <a href="#">case studies of companies like Netflix, Uber, etc</a>.</li>
+</ul>
+<hr>
+<h2 id="roadmap">Roadmap</h2>
+<p>Would you like me to organize a <mark>learning roadmap</mark> with these topics prioritized for you based on your current knowledge (e.g., with FastAPI and Prometheus)?</p>
+<p>Great! Since you're already using <strong>FastAPI</strong> and have worked with <strong>Prometheus + Grafana</strong>, I'll assume:</p>
+<ul>
+<li>You’re comfortable with Python and basic web APIs.</li>
+<li>You understand HTTP, routing, and REST basics.</li>
+<li>You’ve deployed or monitored a service at least in development/staging.</li>
+</ul>
+<p>Here’s a <mark>personalized roadmap</mark> to mastering advanced backend development, broken into <mark>4 levels</mark>:</p>
+<hr>
+<h3 id="phase-1-strengthen-the-core">🧩 Phase 1: Strengthen the Core</h3>
+<p><strong>Goal</strong>: Deepen your understanding of backend fundamentals and build robust, clean APIs.</p>
+<p><strong>Topics</strong>:</p>
+<ul>
+<li>
+<p>✅ <strong>Advanced FastAPI</strong></p>
+</li>
+<li>
+<p>Dependency injection</p>
+</li>
+<li>Background tasks</li>
+<li>WebSockets</li>
+<li>Middleware</li>
+<li>
+<p>FastAPI + Pydantic V2 performance tuning</p>
+</li>
+<li>
+<p>✅ <strong>SQL Mastery</strong> (PostgreSQL/MySQL)</p>
+</li>
+<li>
+<p>Joins, indexes, query planning</p>
+</li>
+<li>Transactions &amp; isolation levels</li>
+<li>
+<p>ORMs (SQLAlchemy Core vs ORM)</p>
+</li>
+<li>
+<p>✅ <strong>Caching</strong></p>
+</li>
+<li>
+<p>Redis for in-memory caching</p>
+</li>
+<li>
+<p>Cache invalidation strategies</p>
+</li>
+<li>
+<p>✅ <strong>Authentication &amp; Authorization</strong></p>
+</li>
+<li>
+<p>JWT, OAuth2 with FastAPI</p>
+</li>
+<li>Role-based access control (RBAC)</li>
+</ul>
+<hr>
+<h3 id="phase-2-build-production-grade-systems">🧱 Phase 2: Build Production-Grade Systems</h3>
+<p><strong>Goal</strong>: Learn how to scale, monitor, and secure services in real-world environments.</p>
+<p><strong>Topics</strong>:</p>
+<ul>
+<li>
+<p>✅ <strong>Observability</strong></p>
+</li>
+<li>
+<p>Prometheus: custom metrics</p>
+</li>
+<li>Grafana dashboards</li>
+<li>Logging (Structlog, Loguru, or ELK)</li>
+<li>
+<p>Tracing with OpenTelemetry or Jaeger</p>
+</li>
+<li>
+<p>✅ <strong>Asynchronous Programming</strong></p>
+</li>
+<li>
+<p>Python <code>asyncio</code>, FastAPI async routes</p>
+</li>
+<li>
+<p>Task queues: Celery, Redis Queue</p>
+</li>
+<li>
+<p>✅ <strong>Docker &amp; Docker Compose</strong></p>
+</li>
+<li>
+<p>Build, run, network multiple services</p>
+</li>
+<li>
+<p>✅ <strong>Testing</strong></p>
+</li>
+<li>
+<p>Pytest: unit, integration, and E2E</p>
+</li>
+<li>Test coverage, mocking, fixtures</li>
+</ul>
+<hr>
+<h3 id="phase-3-advanced-architecture-devops">🌐 Phase 3: Advanced Architecture &amp; DevOps</h3>
+<p><strong>Goal</strong>: Design scalable, resilient systems and manage deployments like a pro.</p>
+<p><strong>Topics</strong>:</p>
+<ul>
+<li>
+<p>✅ <strong>System Design Basics</strong></p>
+</li>
+<li>
+<p>Load balancers, reverse proxies</p>
+</li>
+<li>
+<p>Horizontal scaling, stateless services</p>
+</li>
+<li>
+<p>✅ <strong>API Gateway Concepts</strong></p>
+</li>
+<li>
+<p>Kong, NGINX, or Traefik usage</p>
+</li>
+<li>
+<p>✅ <strong>CI/CD Pipelines</strong></p>
+</li>
+<li>
+<p>GitHub Actions or GitLab CI</p>
+</li>
+<li>
+<p>Auto-deploy on push or merge</p>
+</li>
+<li>
+<p>✅ <strong>Infrastructure as Code</strong></p>
+</li>
+<li>
+<p>Terraform (AWS/GCP basics)</p>
+</li>
+<li>
+<p>✅ <strong>Cloud</strong></p>
+</li>
+<li>
+<p>AWS core services: EC2, RDS, S3, IAM</p>
+</li>
+<li>Deploying FastAPI with Gunicorn + NGINX</li>
+</ul>
+<hr>
+<h3 id="phase-4-high-level-architecture-real-world-practices">⚡ Phase 4: High-Level Architecture &amp; Real-World Practices</h3>
+<p><strong>Goal</strong>: Learn how large-scale systems work and how to design fault-tolerant, scalable APIs.</p>
+<p><strong>Topics</strong>:</p>
+<ul>
+<li>
+<p>✅ <strong>Message Brokers</strong></p>
+</li>
+<li>
+<p>Kafka or RabbitMQ</p>
+</li>
+<li>
+<p>Event-driven design (Pub/Sub)</p>
+</li>
+<li>
+<p>✅ <strong>Microservices Architecture</strong></p>
+</li>
+<li>
+<p>Service discovery</p>
+</li>
+<li>Inter-service communication (REST, gRPC)</li>
+<li>
+<p>Database per service pattern</p>
+</li>
+<li>
+<p>✅ <strong>Advanced API Design</strong></p>
+</li>
+<li>
+<p>Pagination, filtering, versioning</p>
+</li>
+<li>GraphQL vs REST trade-offs</li>
+<li>
+<p>gRPC with Python</p>
+</li>
+<li>
+<p>✅ <strong>Distributed Systems Concepts</strong></p>
+</li>
+<li>
+<p>CAP theorem, consistency models</p>
+</li>
+<li>Circuit breakers, retries, timeouts</li>
+<li>Idempotency in distributed APIs</li>
+</ul>
+<hr>
+<h3 id="bonus-reading-projects">🧠 Bonus Reading &amp; Projects</h3>
+<p><strong>Books</strong>:</p>
+<ul>
+<li>Designing Data-Intensive Applications – Martin Kleppmann</li>
+<li>The Phoenix Project (DevOps focus)</li>
+<li>Clean Architecture – Uncle Bob</li>
+</ul>
+<p><strong>Projects to Try</strong>:</p>
+<ul>
+<li>🛒 E-commerce microservice (cart, auth, orders)</li>
+<li>🚀 Real-time chat app (WebSocket + Redis)</li>
+<li>📊 Monitoring dashboard (Prometheus + custom metrics)</li>
+<li>🌍 API gateway proxy in front of multiple microservices</li>
+</ul>
+<hr></div>
 
 
 
@@ -1580,7 +2265,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../rate-limiting/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Rate Limiting">
+          <a href="../overview/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Overview">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1590,20 +2275,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Rate Limiting
+                Overview
               </div>
             </div>
           </a>
         
         
           
-          <a href="../../database/" class="md-footer__link md-footer__link--next" aria-label="Next: Overview">
+          <a href="../observability-stack/" class="md-footer__link md-footer__link--next" aria-label="Next: Obervability Stack">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Overview
+                Obervability Stack
               </div>
             </div>
             <div class="md-footer__button md-icon">
